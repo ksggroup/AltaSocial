@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/vfiguracion/.android/build-cache/b000a0e7e9a5bde069184d5cceea183ed0c80e17/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] /home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/vfiguracion/.android/build-cache/7df2c26be79438984a2b9a4e98b0a831c3c9c17b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/vfiguracion/.android/build-cache/1942a37537fea18cf7254d036ef1f93fdd176e06/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /home/vfiguracion/.android/build-cache/faa6e111648e56df32cc1c64297a66123f806195/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/vfiguracion/.android/build-cache/e9cd574c659c97539c8083edb112943515c76a81/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/vfiguracion/.android/build-cache/05371cc7c5f7ad287c480224da6687914eeffb3d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/vfiguracion/.android/build-cache/60a05f7521c9c959b44f52f42f00d6122153a9e6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/vfiguracion/.android/build-cache/056d6920f1e0adb60711122ca976d5f8b14f7c2d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/vfiguracion/.android/build-cache/7c609e2b443508ae643f888cf9da0e70084957f2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/vfiguracion/.android/build-cache/2658f0da338c71e334945542e289d202abbbf316/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:13:9-52
+activity#com.ksggroup.altanet.altasocial.Activities.LoginActivity
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:14:19-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.ksggroup.altanet.altasocial.Activities.FeedActivity
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:21:9-24:68
+	android:label
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:23:13-56
+	android:theme
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:22:13-52
+uses-sdk
+INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/vfiguracion/.android/build-cache/b000a0e7e9a5bde069184d5cceea183ed0c80e17/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] /home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/vfiguracion/.android/build-cache/7df2c26be79438984a2b9a4e98b0a831c3c9c17b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/vfiguracion/.android/build-cache/1942a37537fea18cf7254d036ef1f93fdd176e06/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/vfiguracion/.android/build-cache/7b37f45c4c2b8b03cd43e792276d3ed7a919f737/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /home/vfiguracion/.android/build-cache/faa6e111648e56df32cc1c64297a66123f806195/output/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.1.0] /home/vfiguracion/.android/build-cache/9695376803259c09f59eddbc5243c4388df0c52a/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /home/vfiguracion/.android/build-cache/e9cd574c659c97539c8083edb112943515c76a81/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/vfiguracion/.android/build-cache/05371cc7c5f7ad287c480224da6687914eeffb3d/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/vfiguracion/.android/build-cache/60a05f7521c9c959b44f52f42f00d6122153a9e6/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/vfiguracion/.android/build-cache/056d6920f1e0adb60711122ca976d5f8b14f7c2d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/vfiguracion/.android/build-cache/7c609e2b443508ae643f888cf9da0e70084957f2/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /home/vfiguracion/.android/build-cache/2658f0da338c71e334945542e289d202abbbf316/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] /home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml

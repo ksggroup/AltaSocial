@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/7c609e2b443508ae643f888cf9da0e70084957f2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_220049fd752dd27f6d2a14772f26218dabeefc64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/1942a37537fea18cf7254d036ef1f93fdd176e06/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_7bf113f4b78c51baa94f146749520b00c99c93c7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c604f55631d8c0515a3e7b6c1af9c44eb8193154/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/05371cc7c5f7ad287c480224da6687914eeffb3d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_c34a348e91f924f76210dd1c87f95b7a287eacc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/e9cd574c659c97539c8083edb112943515c76a81/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_2fc2ef75e856386098e3c2e13c91f3f90c17f7f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/60a05f7521c9c959b44f52f42f00d6122153a9e6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_d9e8139ecfc83c9f4aa8007a74364337aadb5d84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/b000a0e7e9a5bde069184d5cceea183ed0c80e17/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_32a25df08755b910c2ea63d2ec08674f885e07b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_f22f3eb86e62e1aea0cc60a32d84c3f06edfc8e4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58efdd3120bc44b3c4c9f3873167273881db21ee">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_64ea28ca1cf3c8cd07c9b2298f91f4e7df6b9de7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.1.0/d6854f42bfb4098d3d2358d93201307b9f1cc95d/butterknife-annotations-8.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6854f42bfb4098d3d2358d93201307b9f1cc95d">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.1.0_ddba365aa1a600b0d128485f14869b26b1bdc06c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/java/com/ksggroup/altanet/altasocial/Soap/ksoap2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/2/ksoap2_51a6c9c3b3f21b425471790f9ed2854710ebafa1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/056d6920f1e0adb60711122ca976d5f8b14f7c2d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_7dfeb31133ed41186f9c713bf1490accb2e9a56d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/2658f0da338c71e334945542e289d202abbbf316/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_b7146b94fb287b106519c46677f6c1f209bbe661.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/faa6e111648e56df32cc1c64297a66123f806195/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_62ee7e55bf3aa9146d2e163fcc6c800b5216f0fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/7b37f45c4c2b8b03cd43e792276d3ed7a919f737/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_bd4cdce0272018d5abc3798c9aa2aa27df4c9e6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/java/com/ksggroup/altanet/altasocial/Soap/ksoap2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/ksoap2_51a6c9c3b3f21b425471790f9ed2854710ebafa1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_097f8b822594843141816636e9f0523f8fa2f9d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_194e95ccca318cbfc8b7ddbb4b952bdf8b3d4db4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.1/constraint-layout-solver-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.1_5c86631daadab1f5fd1c47ed4b96d0791330dc63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/9695376803259c09f59eddbc5243c4388df0c52a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4ab8678882571a0a6f19c47a826ecbce5b4f42b">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_495834603535641c92ad102f916476e77c60d9d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vfiguracion/.android/build-cache/7df2c26be79438984a2b9a4e98b0a831c3c9c17b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/pre-dexed/debug/classes_7eaee326249e5eed2ada9c7f58ee95a69108fef9.jar" />
+    </item>
+
+</items>

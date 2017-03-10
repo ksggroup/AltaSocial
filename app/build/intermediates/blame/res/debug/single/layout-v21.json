@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

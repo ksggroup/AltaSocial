@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AltaSocial</string>
+    <string name="title_activity_feed">FeedActivity</string>
+
+    <string name="NAMESPACE">http://service.altanet.ws.com/</string>
+    <string name="URL">http://altanet.herokuapp.com/service?wsdl</string>
+
+</resources>

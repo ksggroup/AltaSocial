@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    }
+]

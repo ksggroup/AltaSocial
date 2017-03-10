@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/res/drawable-v21/avd_hide_password.xml"
+    }
+]
