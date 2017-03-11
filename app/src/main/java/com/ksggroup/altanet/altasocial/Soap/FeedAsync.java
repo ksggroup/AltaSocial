@@ -1,8 +1,13 @@
 package com.ksggroup.altanet.altasocial.Soap;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.widget.ListView;
 
+import com.ksggroup.altanet.altasocial.Adapter.PostAdapter;
 import com.ksggroup.altanet.altasocial.Model.AuthenticateRequest;
 import com.ksggroup.altanet.altasocial.Model.GetPostRequest;
 import com.ksggroup.altanet.altasocial.Model.Post;
@@ -15,6 +20,7 @@ import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,11 +32,12 @@ import butterknife.BindString;
 
 public class FeedAsync extends AsyncTask<GetPostRequest, Void, List<Post>> {
 
-    private Context activity;
+    private Activity activity;
+    private WeakReference<Activity> mWeakActivity;
 
-
-    public FeedAsync(Context activity) {
+    public FeedAsync(Activity activity) {
         this.activity = activity;
+        mWeakActivity = new WeakReference<Activity>(activity);
     }
 
     @Override
@@ -98,6 +105,27 @@ public class FeedAsync extends AsyncTask<GetPostRequest, Void, List<Post>> {
 
     @Override
     protected void onPostExecute(List<Post> posts) {
+        Activity a = mWeakActivity.get();
 
+        if(a != null) {
+            System.out.println("onPostExecute Feed: " + posts.size());
+
+            final SwipeRefreshLayout mySwipeRefreshLayout = (SwipeRefreshLayout) a.findViewById(R.id.swiperefresh);
+            ListView feed = (ListView) a.findViewById(R.id.list);
+            final PostAdapter postAdapter = new PostAdapter(a , posts);
+            feed.setAdapter(postAdapter);
+            postAdapter.getPosts().addAll(posts);
+
+            new android.os.Handler().postDelayed(
+                    new Runnable() {
+                        public void run() {
+                            postAdapter.notifyDataSetChanged();
+
+                            if(mySwipeRefreshLayout.isRefreshing()) {
+                                mySwipeRefreshLayout.setRefreshing(false);
+                            }
+                        }
+                    }, 3000);
+        }
     }
 }

@@ -108,6 +108,10 @@
         "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/layout/activity_create_account.xml",
+        "source": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/res/layout/activity_create_account.xml"
+    },
+    {
         "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/layout/notification_template_part_chronometer.xml"
     },

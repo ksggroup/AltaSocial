@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/Andro
 	android:name
 		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:7:5-25:19
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:7:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/vfiguracion/.android/build-cache/b000a0e7e9a5bde069184d5cceea183ed0c80e17/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.2.0] /home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/AndroidManifest.xml:25:5-20
@@ -58,13 +58,17 @@ ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/Andro
 	android:name
 		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:18:27-74
 activity#com.ksggroup.altanet.altasocial.Activities.FeedActivity
-ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:21:9-24:68
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:21:9-24:59
 	android:label
 		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:23:13-56
 	android:theme
 		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:24:13-56
 	android:name
 		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:22:13-52
+activity#com.ksggroup.altanet.altasocial.Activities.CreateAccountActivity
+ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:25:9-79
+	android:name
+		ADDED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml:25:19-67
 uses-sdk
 INJECTED from /home/vfiguracion/AndroidStudioProjects/AltaSocial/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/vfiguracion/.android/build-cache/b000a0e7e9a5bde069184d5cceea183ed0c80e17/output/AndroidManifest.xml:5:5-7:41

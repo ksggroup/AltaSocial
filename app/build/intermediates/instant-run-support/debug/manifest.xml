@@ -28,6 +28,7 @@
             android:name="com.ksggroup.altanet.altasocial.Activities.FeedActivity"
             android:label="@string/title_activity_feed"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.ksggroup.altanet.altasocial.Activities.CreateAccountActivity" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

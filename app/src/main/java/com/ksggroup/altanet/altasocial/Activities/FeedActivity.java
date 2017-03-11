@@ -29,9 +29,6 @@ import butterknife.ButterKnife;
 
 public class FeedActivity extends AppCompatActivity {
 
-    PostAdapter postAdapter;
-    List<Post> posts;
-
     @BindView(R.id.list) ListView feed;
     @BindView(R.id.text_post) EditText textPost;
     @BindView(R.id.btn_post) Button btnPost;
@@ -44,27 +41,7 @@ public class FeedActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         final User user = getIntent().getExtras().getParcelable("AuthenticatedUser");
-
-        posts = new ArrayList<Post>();
-        postAdapter = new PostAdapter(this, posts);
-        feed.setAdapter(postAdapter);
-
-        try {
-            List<Post> newPost = (new FeedAsync(getBaseContext())).execute(new GetPostRequest(user.getUser_id())).get();
-            postAdapter.getPosts().clear();
-            postAdapter.getPosts().addAll(newPost);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        postAdapter.notifyDataSetChanged();
-                    }
-                }, 3000);
+        new FeedAsync(this).execute(new GetPostRequest(user.getUser_id()));
 
         btnPost.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,54 +52,7 @@ public class FeedActivity extends AppCompatActivity {
                     return;
                 }
 
-                final ProgressDialog pd = new ProgressDialog(FeedActivity.this);
-
-                btnPost.setEnabled(false);
-                pd.setIndeterminate(true);
-                pd.setMessage("Posting...");
-                pd.setCancelable(false);
-                pd.show();
-
-                AddPostAsync apa = new AddPostAsync(getBaseContext());
-                Integer insertedRows = 0;
-                try {
-                    insertedRows = apa.execute(new InsertPostRequest(user.getUser_id(), textPost.getText().toString())).get();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } catch (ExecutionException e) {
-                    e.printStackTrace();
-                }
-
-                final Integer finalInsertedRows = insertedRows;
-                new android.os.Handler().postDelayed(
-                        new Runnable() {
-                            public void run() {
-                                pd.dismiss();
-
-                                if(finalInsertedRows > 0) {
-                                    try {
-                                        List<Post> newPost = (new FeedAsync(getBaseContext())).execute(new GetPostRequest(user.getUser_id())).get();
-                                        postAdapter.getPosts().clear();
-                                        postAdapter.getPosts().addAll(newPost);
-                                    } catch (InterruptedException e) {
-                                        e.printStackTrace();
-                                    } catch (ExecutionException e) {
-                                        e.printStackTrace();
-                                    }
-
-                                    new android.os.Handler().postDelayed(
-                                            new Runnable() {
-                                                public void run() {
-                                                    postAdapter.notifyDataSetChanged();
-                                                }
-                                            }, 3000);
-                                } else {
-                                    Toast.makeText(FeedActivity.this, "Failed to post!", Toast.LENGTH_SHORT).show();
-                                }
-                                textPost.setText("");
-                                btnPost.setEnabled(true);
-                            }
-                        }, 3000);
+                new AddPostAsync(FeedActivity.this).execute(new InsertPostRequest(user.getUser_id(), textPost.getText().toString()));
             }
         });
 
@@ -130,28 +60,10 @@ public class FeedActivity extends AppCompatActivity {
                 new SwipeRefreshLayout.OnRefreshListener() {
                     @Override
                     public void onRefresh() {
-                        try {
-                            List<Post> newPost = (new FeedAsync(getBaseContext())).execute(new GetPostRequest(user.getUser_id())).get();
-                            postAdapter.getPosts().clear();
-                            postAdapter.getPosts().addAll(newPost);
-
-                            new android.os.Handler().postDelayed(
-                                    new Runnable() {
-                                        public void run() {
-                                            postAdapter.notifyDataSetChanged();
-                                            mySwipeRefreshLayout.setRefreshing(false);
-                                        }
-                                    }, 3000);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        } catch (ExecutionException e) {
-                            e.printStackTrace();
-                        }
+                        new FeedAsync(FeedActivity.this).execute(new GetPostRequest(user.getUser_id()));
                     }
                 }
         );
-
-
     }
     @Override
     public void onBackPressed() {

@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="58efdd3120bc44b3c4c9f3873167273881db21ee">
+        sha1="7b2db2a52c0cb4632b77cfc3af34f4a8999af899">
         <dex dex="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_64ea28ca1cf3c8cd07c9b2298f91f4e7df6b9de7/classes.dex" />
     </item>
     <item

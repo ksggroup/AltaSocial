@@ -26,12 +26,12 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile files('src/main/java/com/ksggroup/altanet/altasocial/com/ksggroup/altanet/altasocial/soap/ksoap2.jar')
+    compile files('src/main/java/com/ksggroup/altanet/altasocial/Soap/ksoap2.jar')
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
     compile 'com.android.support:design:25.2.0'
     compile 'com.jakewharton:butterknife:8.1.0'
+    compile 'com.android.support:support-v4:25.0.1'
     testCompile 'junit:junit:4.12'
     apt 'com.jakewharton:butterknife-compiler:8.1.0'
-    compile files('src/main/java/com/ksggroup/altanet/altasocial/Soap/ksoap2.jar')
-    compile 'com.android.support:support-v4:25.0.+'
 }

@@ -1,8 +1,13 @@
 package com.ksggroup.altanet.altasocial.Soap;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.PropertyInfo;
@@ -10,9 +15,13 @@ import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
+import com.ksggroup.altanet.altasocial.Activities.FeedActivity;
+import com.ksggroup.altanet.altasocial.Activities.LoginActivity;
 import com.ksggroup.altanet.altasocial.Model.AuthenticateRequest;
 import com.ksggroup.altanet.altasocial.Model.User;
 import com.ksggroup.altanet.altasocial.R;
+
+import java.lang.ref.WeakReference;
 
 import butterknife.BindString;
 
@@ -22,12 +31,13 @@ import butterknife.BindString;
 
 public class LoginAsync extends AsyncTask<AuthenticateRequest, String, User> {
 
-    private Context activity;
+    private Activity activity;
+    private WeakReference<Activity> mWeakActivity;
+    private ProgressDialog pdAuth;
 
-    ProgressDialog pd;
-
-    public LoginAsync(Context activity) {
+    public LoginAsync(Activity activity) {
         this.activity = activity;
+        mWeakActivity = new WeakReference<Activity>(activity);
     }
 
     @Override
@@ -86,11 +96,47 @@ public class LoginAsync extends AsyncTask<AuthenticateRequest, String, User> {
 
     @Override
     protected void onPreExecute() {
+        Activity a = mWeakActivity.get();
+
+        if(a != null) {
+            Button loginBtn = (Button) a.findViewById(R.id.btn_login);
+            loginBtn.setEnabled(false);
+
+            pdAuth = new ProgressDialog(activity);
+            pdAuth.setIndeterminate(true);
+            pdAuth.setMessage("Authenticating...");
+            pdAuth.setCancelable(false);
+            pdAuth.show();
+        }
 
     }
 
     @Override
-    protected void onPostExecute(User user) {
+    protected void onPostExecute(final User user) {
+        Activity a = mWeakActivity.get();
+
+        if(a != null) {
+            final Button loginBtn = (Button) a.findViewById(R.id.btn_login);
+
+            new android.os.Handler().postDelayed(
+                    new Runnable() {
+                        public void run() {
+                            pdAuth.dismiss();
+
+                            if(user != null) {
+                                //Toast.makeText(getBaseContext(), "Login successful", Toast.LENGTH_LONG).show();
+                                Intent feedIntent = new Intent(activity, FeedActivity.class);
+                                feedIntent.putExtra("AuthenticatedUser", user);
+                                activity.startActivity(feedIntent);
+
+                            } else {
+                                loginBtn.setEnabled(true);
+                                Toast.makeText(activity, "Login failed", Toast.LENGTH_LONG).show();
+                            }
+
+                        }
+                    }, 3000);
+        }
 
     }
 }

@@ -25,8 +25,8 @@ public class FeedActivity$$ViewBinder<T extends FeedActivity> implements ViewBin
       this.target = target;
 
       target.feed = finder.findRequiredViewAsType(source, 2131558523, "field 'feed'", ListView.class);
-      target.textPost = finder.findRequiredViewAsType(source, 2131558567, "field 'textPost'", EditText.class);
-      target.btnPost = finder.findRequiredViewAsType(source, 2131558568, "field 'btnPost'", Button.class);
+      target.textPost = finder.findRequiredViewAsType(source, 2131558568, "field 'textPost'", EditText.class);
+      target.btnPost = finder.findRequiredViewAsType(source, 2131558569, "field 'btnPost'", Button.class);
       target.mySwipeRefreshLayout = finder.findRequiredViewAsType(source, 2131558522, "field 'mySwipeRefreshLayout'", SwipeRefreshLayout.class);
     }
 
