@@ -1,5 +1,6 @@
 package com.ksggroup.altanet.altasocial.Activities;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +21,7 @@ import com.ksggroup.altanet.altasocial.Model.User;
 import com.ksggroup.altanet.altasocial.Soap.AddPostAsync;
 import com.ksggroup.altanet.altasocial.Soap.FeedAsync;
 
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
@@ -28,7 +30,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class FeedActivity extends AppCompatActivity {
-
+    private ProgressDialog pdCreate;
+    private WeakReference<Activity> mWeakActivity;
+    private Activity activity;
     @BindView(R.id.list) ListView feed;
     @BindView(R.id.text_post) EditText textPost;
     @BindView(R.id.btn_post) Button btnPost;
@@ -65,6 +69,11 @@ public class FeedActivity extends AppCompatActivity {
                 }
         );
     }
+
+
+
+
+
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);
