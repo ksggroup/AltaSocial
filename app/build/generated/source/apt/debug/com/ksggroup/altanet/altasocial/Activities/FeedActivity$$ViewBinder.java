@@ -4,7 +4,9 @@ package com.ksggroup.altanet.altasocial.Activities;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Finder;
 import butterknife.internal.ViewBinder;
@@ -24,10 +26,14 @@ public class FeedActivity$$ViewBinder<T extends FeedActivity> implements ViewBin
     protected InnerUnbinder(T target, Finder finder, Object source) {
       this.target = target;
 
-      target.feed = finder.findRequiredViewAsType(source, 2131558523, "field 'feed'", ListView.class);
-      target.textPost = finder.findRequiredViewAsType(source, 2131558568, "field 'textPost'", EditText.class);
-      target.btnPost = finder.findRequiredViewAsType(source, 2131558569, "field 'btnPost'", Button.class);
-      target.mySwipeRefreshLayout = finder.findRequiredViewAsType(source, 2131558522, "field 'mySwipeRefreshLayout'", SwipeRefreshLayout.class);
+      target.feed = finder.findRequiredViewAsType(source, 2131558545, "field 'feed'", ListView.class);
+      target.textPost = finder.findRequiredViewAsType(source, 2131558589, "field 'textPost'", EditText.class);
+      target.btnPost = finder.findRequiredViewAsType(source, 2131558590, "field 'btnPost'", Button.class);
+      target.mySwipeRefreshLayout = finder.findRequiredViewAsType(source, 2131558544, "field 'mySwipeRefreshLayout'", SwipeRefreshLayout.class);
+      target.userId = finder.findRequiredViewAsType(source, 2131558588, "field 'userId'", TextView.class);
+      target.emptyTxt = finder.findRequiredViewAsType(source, 2131558541, "field 'emptyTxt'", TextView.class);
+      target.profilePic = finder.findRequiredViewAsType(source, 2131558533, "field 'profilePic'", ImageView.class);
+      target.addBtn = finder.findRequiredViewAsType(source, 2131558546, "field 'addBtn'", ImageView.class);
     }
 
     @Override
@@ -39,6 +45,10 @@ public class FeedActivity$$ViewBinder<T extends FeedActivity> implements ViewBin
       target.textPost = null;
       target.btnPost = null;
       target.mySwipeRefreshLayout = null;
+      target.userId = null;
+      target.emptyTxt = null;
+      target.profilePic = null;
+      target.addBtn = null;
 
       this.target = null;
     }

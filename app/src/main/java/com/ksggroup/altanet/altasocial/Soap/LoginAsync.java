@@ -79,6 +79,7 @@ public class LoginAsync extends AsyncTask<AuthenticateRequest, String, User> {
                 user.setMiddle_name(soapUser.getProperty("middle_name").toString());
                 user.setDob(soapUser.getProperty("dob").toString());
                 user.setUser_id(Long.valueOf(soapUser.getProperty("user_id").toString()));
+                user.setProfilePic(soapUser.getProperty("profile_pic").toString());
 
                 System.out.println("First Name: " + user.getFirst_name());
                 System.out.println("Middle Name: " + user.getMiddle_name());
@@ -117,26 +118,19 @@ public class LoginAsync extends AsyncTask<AuthenticateRequest, String, User> {
 
         if(a != null) {
             final Button loginBtn = (Button) a.findViewById(R.id.btn_login);
+             pdAuth.dismiss();
 
-            new android.os.Handler().postDelayed(
-                    new Runnable() {
-                        public void run() {
-                            pdAuth.dismiss();
-
-                            if(user != null) {
-                                //Toast.makeText(getBaseContext(), "Login successful", Toast.LENGTH_LONG).show();
-                                Intent feedIntent = new Intent(activity, FeedActivity.class);
-                                feedIntent.putExtra("AuthenticatedUser", user);
-                                activity.startActivity(feedIntent);
-
-                            } else {
-                                loginBtn.setEnabled(true);
-                                Toast.makeText(activity, "Login failed", Toast.LENGTH_LONG).show();
-                            }
-
-                        }
-                    }, 3000);
+            if(user != null) {
+                //Toast.makeText(getBaseContext(), "Login successful", Toast.LENGTH_LONG).show();
+                Intent feedIntent = new Intent(activity, FeedActivity.class);
+                feedIntent.putExtra("AuthenticatedUser", user);
+                activity.startActivity(feedIntent);
+            } else {
+                loginBtn.setEnabled(true);
+                Toast.makeText(activity, "Login failed", Toast.LENGTH_LONG).show();
+            }
         }
+
 
     }
 }

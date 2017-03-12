@@ -8,6 +8,7 @@ public class Post {
 	String first_name;
 	String middle_name;
 	String last_name;
+	long reactionCount;
 
 	public long getPost_id() {
 		return post_id;
@@ -50,6 +51,13 @@ public class Post {
 	}
 	public void setUser_id(long user_id) {
 		this.user_id = user_id;
+	}
+	public long getReactionCount() {
+		return reactionCount;
+	}
+
+	public void setReactionCount(long reactionCount) {
+		this.reactionCount = reactionCount;
 	}
 
 }

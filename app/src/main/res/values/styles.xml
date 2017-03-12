@@ -24,6 +24,16 @@
         <item name="colorControlActivated">@color/perpsYellow</item>
     </style>
 
+    <style name="TextAppearanceRegister" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/perpsMaroon</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/perpsYellow</item>
+        <item name="colorControlNormal">@color/perpsYellow</item>
+        <item name="colorControlActivated">@color/perpsYellow</item>
+    </style>
+
     <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

@@ -6,31 +6,37 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489205586197"
+    timestamp="1489338114133"
     token="-8067767167317941824"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="348" />
+        duration="10069" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="365" />
     <task
         name="verifier"
-        duration="39" />
+        duration="134" />
 
     <artifact
-        location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1489198712463"
+        timestamp="1489325515924"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
@@ -47,9 +53,6 @@
             location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
@@ -64,32 +67,43 @@
         <artifact
             location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489200237422"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1489205407961"
+        timestamp="1489328553626"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489205586197"
+        timestamp="1489332929437"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1489337098873"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1489338114133"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
     </build>
 

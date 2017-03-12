@@ -8,16 +8,16 @@
         "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
+        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
         "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/home/vfiguracion/.android/build-cache/51db30bef5bedcec95586a424b85d494df3cddcd/output/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/home/vfiguracion/.android/build-cache/b3e9553923ff4e46773fcfb1466335b3d483322e/output/res/color/design_tint_password_toggle.xml"
     },
     {
         "merged": "/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",

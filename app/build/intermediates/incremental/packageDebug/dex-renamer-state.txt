@@ -1,7 +1,4 @@
-#Sat Mar 11 10:44:00 PHT 2017
-base.0=/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c604f55631d8c0515a3e7b6c1af9c44eb8193154
-renamed.1=classes2.dex
+#Mon Mar 13 01:24:04 PHT 2017
+base.0=/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_64ea28ca1cf3c8cd07c9b2298f91f4e7df6b9de7/classes.dex
-base.1=/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_64ea28ca1cf3c8cd07c9b2298f91f4e7df6b9de7
-file.0=/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c604f55631d8c0515a3e7b6c1af9c44eb8193154/classes.dex
+file.0=/home/vfiguracion/AndroidStudioProjects/AltaSocial/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

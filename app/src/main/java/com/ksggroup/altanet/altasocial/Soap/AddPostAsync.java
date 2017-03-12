@@ -14,6 +14,7 @@ import com.ksggroup.altanet.altasocial.Model.AuthenticateRequest;
 import com.ksggroup.altanet.altasocial.Model.GetPostRequest;
 import com.ksggroup.altanet.altasocial.Model.InsertPostRequest;
 import com.ksggroup.altanet.altasocial.Model.Post;
+import com.ksggroup.altanet.altasocial.Model.User;
 import com.ksggroup.altanet.altasocial.R;
 
 import org.ksoap2.SoapEnvelope;
@@ -32,11 +33,13 @@ public class AddPostAsync extends AsyncTask<InsertPostRequest, Void, Integer> {
     private WeakReference<Activity> mWeakActivity;
     private ProgressDialog pd;
     private Long userId;
+    private User user;
 
-    public AddPostAsync(Activity activity) {
+    public AddPostAsync(Activity activity, User user) {
         this.activity = activity;
         mWeakActivity = new WeakReference<Activity>(activity);
         pd = new ProgressDialog(activity);
+        this.user = user;
     }
 
     @Override
@@ -104,20 +107,15 @@ public class AddPostAsync extends AsyncTask<InsertPostRequest, Void, Integer> {
             final Button btnPost = (Button) a.findViewById(R.id.btn_post);
             final TextView textPost = (TextView) a.findViewById(R.id.text_post);
 
-            new android.os.Handler().postDelayed(
-                    new Runnable() {
-                        public void run() {
-                            pd.dismiss();
+            pd.dismiss();
 
-                            if(insertRows > 0) {
-                                new FeedAsync(activity).execute(new GetPostRequest(userId));
-                            } else {
-                                Toast.makeText(activity, "Failed to post!", Toast.LENGTH_SHORT).show();
-                            }
-                            textPost.setText("");
-                            btnPost.setEnabled(true);
-                        }
-                    }, 3000);
+            if(insertRows > 0) {
+                new FeedAsync(activity, user).execute(new GetPostRequest(userId));
+            } else {
+                Toast.makeText(activity, "Failed to post!", Toast.LENGTH_SHORT).show();
+            }
+            textPost.setText("");
+            btnPost.setEnabled(true);
         }
 
     }

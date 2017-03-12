@@ -3,6 +3,7 @@ package com.ksggroup.altanet.altasocial.Activities;
 
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Finder;
 import butterknife.internal.ViewBinder;
@@ -22,9 +23,10 @@ public class LoginActivity$$ViewBinder<T extends LoginActivity> implements ViewB
     protected InnerUnbinder(T target, Finder finder, Object source) {
       this.target = target;
 
-      target.emailText = finder.findRequiredViewAsType(source, 2131558541, "field 'emailText'", EditText.class);
-      target.passText = finder.findRequiredViewAsType(source, 2131558542, "field 'passText'", EditText.class);
-      target.loginBtn = finder.findRequiredViewAsType(source, 2131558543, "field 'loginBtn'", Button.class);
+      target.emailText = finder.findRequiredViewAsType(source, 2131558562, "field 'emailText'", EditText.class);
+      target.passText = finder.findRequiredViewAsType(source, 2131558563, "field 'passText'", EditText.class);
+      target.loginBtn = finder.findRequiredViewAsType(source, 2131558564, "field 'loginBtn'", Button.class);
+      target.signUptext = finder.findRequiredViewAsType(source, 2131558522, "field 'signUptext'", TextView.class);
     }
 
     @Override
@@ -35,6 +37,7 @@ public class LoginActivity$$ViewBinder<T extends LoginActivity> implements ViewB
       target.emailText = null;
       target.passText = null;
       target.loginBtn = null;
+      target.signUptext = null;
 
       this.target = null;
     }

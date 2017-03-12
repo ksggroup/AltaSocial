@@ -13,6 +13,7 @@ public class User implements Parcelable {
     String dob;
     String username;
     String password;
+    String profilePic;
 
     public User () {}
 
@@ -24,6 +25,7 @@ public class User implements Parcelable {
         dob = in.readString();
         username = in.readString();
         password = in.readString();
+        profilePic = in.readString();
     }
 
     public String getUsername() {
@@ -68,6 +70,8 @@ public class User implements Parcelable {
     public void setDob(String dob) {
         this.dob = dob;
     }
+    public String getProfilePic() { return profilePic;}
+    public void setProfilePic(String profilePic) {this.profilePic = profilePic;}
 
     @Override
     public int describeContents() {
@@ -83,6 +87,7 @@ public class User implements Parcelable {
         dest.writeString(dob);
         dest.writeString(username);
         dest.writeString(password);
+        dest.writeString(profilePic);
     }
 
     public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {
